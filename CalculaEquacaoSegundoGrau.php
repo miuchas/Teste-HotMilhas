@@ -16,7 +16,6 @@ if($a != 0){
 		$r1 = (-$b + $raisdelta)/(2*$a);
         $r2 = (-$b - $raisdelta)/(2*$a);
 	}
-	else{ //raiz é complexa
 		$tipo = false;
 		$delta = $delta*-1;
 		$raisdelta = sqrt($delta);
